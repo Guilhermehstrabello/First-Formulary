@@ -8,17 +8,55 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <form>
-        Nome:
-        <input type="text" name="name"><br><br>
-        Sobrenome:
-        <input type="text" name="sobrenome"><br><br>
-        Email:
-        <input type="email" name="email" required><br><br>
-        Senha:
-        <input type="password" name="senha" placeholder="informe sua senha">
-        <input type="submit" name="Se cadastre">
+    <div>
+        <h1>Cadastro dos brabos</h1>
+        <h3>Preencha as informações abaixo</h3><br>
+    </div>
 
+    <form>
+        <fieldset>
+            <h4>Informações de contato</h4>
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="name" id="nome">
+            </div>
+
+            <div>
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobre nome">
+            </div>
+
+            <div>
+                <label>CPF</label>
+                <input type="text" name="CPF" id="CPF">
+            </div>
+            
+            <div>
+                <label>Sexo</label>
+                <select name="Sexo" id="Sexo">
+                    <option value="">Informe seu sexo</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Prefiro não informar">Prefiro não informar</option>
+                </select>
+            </div>
+            
+        </fieldset>
+        <fieldset>
+            <h4>Informações de login</h4>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="informe sua senha" minlength="8"><br>
+            </div>
+            <div>
+                <input type="submit" name="Enviar" id="Enviar">
+            </div>
+        </fieldset>  
     </form>
 </body>
 </html>

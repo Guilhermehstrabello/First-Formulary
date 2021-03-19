@@ -1,9 +1,26 @@
+
 form {
-  background-color: darkgrey;
+  background-color: rgb(46, 231, 255);
   padding: 30px;
   max-width: 400px;
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+h1 {
+  background-color: rgb(17, 184, 235);
+  max-width: 400px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+h3 {
+  background-color: rgb(17, 184, 235);
+  max-width: 400px;
+  position: absolute;
+  top: 10%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
