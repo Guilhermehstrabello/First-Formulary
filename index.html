@@ -27,8 +27,13 @@
             </div>
 
             <div>
+                <label>Data de nascimento:</label>
+                <input type="date" name="Data de nascimento" id="Data de nascimento">
+            </div>
+
+            <div>
                 <label>CPF</label>
-                <input type="text" name="CPF" id="CPF">
+                <input type="text" name="CPF" id="CPF" maxlength="11">
             </div>
             
             <div>
@@ -50,9 +55,18 @@
             </div>
 
             <div>
+                <label>Confirme seu Email:</label>
+                <input type="email" name="Confirme seu Email" id="Confirme seu Email" required>
+            </div><br>
+
+            <div>   
                 <label>Senha</label>
                 <input type="password" name="senha" id="senha" placeholder="informe sua senha" minlength="8"><br>
             </div>
+            <div>   
+                <label>Confirme sua senha</label>
+                <input type="password" name="Confirme sua senha" id="Confirme sua senha" placeholder="Confirme sua senha" minlength="8"><br>
+            </div><br>
             <div>
                 <input type="submit" name="Enviar" id="Enviar">
             </div>
