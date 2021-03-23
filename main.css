@@ -1,6 +1,7 @@
 
 form {
-  background-color: #13dbd1;
+  color: whitesmoke;
+  background-color: rgb(1, 26, 26);
   padding: 30px;
   max-width: 800px;
   position: absolute;
@@ -9,7 +10,8 @@ form {
   transform: translateY(-50%) translateX(-50%);
 }
 h1 {
-  background-color: rgb(83, 206, 243);
+  color: rgb(0, 0, 0);
+  background-color: rgb(135, 14, 248);
   max-width: 400px;
   position: absolute;
   top: 0%;
@@ -17,7 +19,8 @@ h1 {
   transform: translateY(-50%) translateX(-50%);
 }
 h3 {
-  background-color: rgb(83, 206, 243);
+  color: rgb(0, 0, 0);
+  background-color: rgb(135, 14, 248); 83, 206, 243
   max-width: 400px;
   position: absolute;
   top: 10%;
